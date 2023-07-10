@@ -1,0 +1,121 @@
+body{
+  background-attachment: fixed;
+  background-color: rgb(89, 2, 89);
+}
+p{
+  color: #ffffff;
+  background-color: rgb(9, 9, 9);
+  margin-left:500px ;
+  margin-right:900px ;
+  position: fixed;
+  top: 0;
+left: 800px;
+}
+#header{
+  background-color: aquamarine;
+  margin: auto;
+  padding-left: 500px;
+}
+.contener{
+  background-color: rgb(0, 170, 255);
+
+}
+.links{
+ transition: all 2s ease-in-out;
+  padding-bottom: 700px;
+  
+}
+.links:hover{
+  background-color: rgb(0, 35, 66);
+  transform: translateX(100px);
+  
+}
+a{
+  color: black;
+}
+#insta{
+  display: flex;
+  font-size: xx-large;
+  font-style:italic;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 500px;
+ background-color: bisque;
+}
+a:link { text-decoration: none; }
+#facebook{
+  background-color: rgb(126, 117, 255);
+  display: flex;
+  font-size: xx-large;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 250px;
+}
+#youtube{
+  background-color: rgb(255, 119, 119);
+  display: flex;
+  font-size: xx-large;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 500px;
+}
+#twitter{
+  display: flex;
+  background-color: rgb(132, 132, 255);
+  font-size: xx-large;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 620px;
+  
+}
+#insta:hover {
+  transform: translateX(100px)
+}
+#facebook:hover {
+  transform: translateX(-100px)
+}
+#youtube:hover {
+  transform: translateX(100px)
+}
+#twitter:hover {
+  transform: translateX(-100px)
+}
+.animation{
+  text-align: center;
+  background-color: aqua;
+  animation: move 50s infinite;
+}
+@keyframes move {
+0%{
+  transform: translateX(100px);
+}
+25%{
+  transform: translateX(-100px);
+  background-color: rgb(0, 53, 35);
+}
+50%{
+  transform: translateX(100px);
+  background-color: rgb(24, 0, 96);
+
+}
+100%{
+  transform: translateX(-100px);
+  background-color: rgb(0, 80, 53);
+}
+}
